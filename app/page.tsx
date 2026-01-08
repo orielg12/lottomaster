@@ -190,14 +190,8 @@ export default function HomePage() {
       {/* Admin Link */}
       <div className="max-w-2xl mx-auto px-4 mt-6 text-center">
         <Link href="/admin">
-          <Button
-            variant="outline"
-            className="text-slate-400 border-slate-700 hover:bg-slate-800 bg-transparent flex items-center gap-2 mx-auto"
-          >
-            <div className="relative w-6 h-6">
-              <Image src="/logo.png" alt="Logo" fill className="object-contain rounded-full" />
-            </div>
-            Acceso Administrativo
+          <Button variant="outline" className="text-slate-400 border-slate-700 hover:bg-slate-800 bg-transparent">
+            🔒 Acceso Administrativo
           </Button>
         </Link>
       </div>
